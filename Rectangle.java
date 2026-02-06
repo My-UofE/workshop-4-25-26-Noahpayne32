@@ -45,4 +45,12 @@ public Rectangle(double width, double height)
     return 2 * (width + height);
   }
   
+  public void scale(double scaleX, double scaleY){
+    width *= scaleX;
+    height *= scaleY;
+  }
+  public void scale(double scaleF){
+    width *= scaleF;
+    height *= scaleF;
+  }
 }
